@@ -1,0 +1,33 @@
+.MainButtons {
+    background: #1F1F1F;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .buttons {
+        
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        >button {
+            background: transparent;
+            color: white;
+            font-size: 16px;
+            border: none;
+        }
+        .mainBtn {
+            border-bottom: 3px solid rgba(174, 174, 224, 1);
+            transform: scale(1);
+            transition: 0.4s;
+        }
+        .bookBtn {
+            border-bottom: 3px solid rgba(174, 174, 224, 1);
+            transform: scale(1);
+            transition: 0.4s;
+        }
+        .log {
+            border:none;
+        }
+    }
+}

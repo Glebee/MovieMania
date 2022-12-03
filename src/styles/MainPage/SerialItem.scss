@@ -1,0 +1,72 @@
+.card {
+   background: rgba(20, 20, 20, 0.05);
+   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+   border-radius: 15px;
+   backdrop-filter: blur(10px);
+   transition: 0.5s;
+   display: flex;
+   flex-direction: column;
+	justify-content: center;
+	align-items: center;
+   text-align: center;
+   // width: 210px;
+   width: 300px;
+	height: 500px;
+   
+   color: white;
+   .product-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      .price {
+      color: rgba(255,255,255, 0.5);
+      }
+      h3{
+         font-size: 25px;
+      }
+   }
+   .follow {
+      color: white;
+      text-decoration: none;
+      background: rgba(174, 174, 224, 0.5);
+      width: 200px;
+      height: 40px;
+      margin: 20px 20px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      transition: 0.5s;
+   }
+   .follow:hover {
+      background: rgba(174, 174, 224, 1);
+      text-shadow:1px 1px 2px #aec6e0, 0 0 1em blue, 0 0 0.2em black;
+   }
+
+   .unfollow {
+      color: white;
+      text-decoration: none;
+      background: rgba(236, 109, 143, 0.5);
+      width: 200px;
+      height: 40px;
+      margin: 20px 20px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      transition: 0.5s;
+   }
+   .unfollow:hover {
+      background: rgba(236, 109, 143, 1);
+      text-shadow:1px 1px 2px #aec6e0, 0 0 1em red, 0 0 0.2em black;
+   }
+   
+}
+.card:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 15px 35px rgba(174,174,224, 0.5);
+}
+
+
+

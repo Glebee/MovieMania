@@ -1,0 +1,60 @@
+.authorization {
+    height: 60vh;
+    
+
+    .loginForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        h2{
+            font-size: 50px;
+            color:white;
+            text-transform: uppercase;
+        }
+        
+        .inputsAndButtons {
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 60%;
+            
+            .Btn {
+            
+                color: white;
+                text-decoration: none;
+                background: rgba(174,174,224, 0.5);
+                // width: 200px;
+                // height: 40px;
+                padding: 15px;
+               // margin-top: 30px;
+                border-radius: 10px;
+                margin: 5px;
+                transition: 0.5s;
+            }
+            button:hover {
+                background: #e8e8f6;
+                .follow {
+                   text-shadow:1px 1px 2px #aec6e0, 0 0 1em blue, 0 0 0.2em black;
+                }
+            }
+            input {
+                background: transparent;
+                border-radius: 10px;
+                border-color: rgba($color: white, $alpha: 0.5);
+                padding: 15px;
+                margin: 5px;
+                color:white;
+            }
+            p {
+                color: white;
+                align-self: start;
+                margin:0 0 -0.3rem 0.5rem;
+                font-weight: bold;
+
+            }
+        }
+        }
+        
+    
+}

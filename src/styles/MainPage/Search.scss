@@ -1,0 +1,21 @@
+.search {
+    position: absolute;
+    right: 0;
+    margin-right: 6rem;
+    margin-top: -5rem;
+    margin-bottom: 1rem;;
+    display: flex;
+    align-items: center;
+
+    padding: 0.5rem 1rem;
+    >input {
+        background-color: transparent;
+        outline: none;
+        color: rgba(255,255,255, 0.7);
+        margin-left: 0.5rem;
+        border: 1px solid rgba(255,255,255, 0.5);
+        border-radius: 10px;
+        padding: 3px;
+
+    }
+}

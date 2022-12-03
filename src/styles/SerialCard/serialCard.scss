@@ -1,0 +1,42 @@
+.serialCard {
+    //border: solid 1px red;
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    
+    .content {
+        padding: 5px;
+        height: 60%;
+        margin:0 0 0 1rem;
+        h3{
+            align-self: center;
+            font-size: 2rem;
+            margin: 0.5rem 0.5rem
+        }
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       
+        .name {
+            color: rgba($color: white, $alpha: 0.7);
+        }
+        .outDate {
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        
+
+            p {
+                font-size: 20px;
+                
+            }
+        }
+    }
+    
+    
+}

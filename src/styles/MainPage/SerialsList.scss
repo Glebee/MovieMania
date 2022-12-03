@@ -1,0 +1,9 @@
+.SerialsList {
+    // margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:5rem 2rem;
+    margin: 6rem;
+}
