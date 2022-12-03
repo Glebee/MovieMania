@@ -18,7 +18,6 @@ export const Header: React.FC<{
                     setActiveBookMarksButton(false);
                     setActiveMainButton(true);
                     const trg = e.target as HTMLElement;
-                    console.log(e.target);
                     trg.classList.add("mainBtn");
                     document.querySelector('.bookBtn')?.classList.remove('bookBtn');
                     {setSerialsCopy(serials);}}}>
@@ -26,7 +25,6 @@ export const Header: React.FC<{
                 </button>
                 <button className='log' onClick={(e ) => {
                     const trg = e.target as HTMLElement;
-                    console.log(e.target);
                     trg.classList.remove("bookBtn");
                     setActiveLoginModal(true);}}>
                     Login
@@ -40,7 +38,6 @@ export const Header: React.FC<{
                     setActiveBookMarksButton(false);
                     setActiveMainButton(true);
                     const trg = e.target as HTMLElement;
-                    console.log(e.target);
                     trg.classList.add("mainBtn");
                     document.querySelector('.bookBtn')?.classList.remove('bookBtn');
                     setSerialsCopy(serials);
@@ -49,7 +46,6 @@ export const Header: React.FC<{
                     setActiveBookMarksButton(true);
                     setActiveMainButton(false);
                     const trg = e.target as HTMLElement;
-                    console.log(e.target);
                     trg.classList.add("bookBtn");
                     document.querySelector('.mainBtn')?.classList.remove('mainBtn');
                     setSerialsCopy(user.serials);

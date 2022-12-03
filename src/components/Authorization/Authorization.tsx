@@ -75,7 +75,7 @@ export const Authorization: React.FC<
         
         return (<div className="authorization">
             <form className="loginForm" onSubmit={(e) => { e.preventDefault() }}>
-                <h2>Hello Stranger!</h2>
+                <h2>Hello, Stranger!</h2>
                 <div className="inputsAndButtons">
                     <p>Please log in</p>
                     <input
