@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+# MovieMania
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Описание проекта
 
-## Available Scripts
+**Movie Mania** - это проект, представляющий собой веб-приложение для поиска и отслеживания информации о фильмах, сериалах и о будующих премьерах.
+![image](https://github.com/Glebee/MovieMania/assets/61833955/e521c018-b20a-4bf9-a2b1-32c58296d212)
 
-In the project directory, you can run:
+## Основные функции
 
-### `npm start`
+- Поиск фильмов по названию, жанру, году выпуска и другим параметрам;
+- Просмотр подробной информации о фильмах, включая описание, рейтинг, актерский состав и многое другое;
+- Возможность добавления фильмов в список "Избранное" для отслеживания;
+- Создание персонального профиля для сохранения настроек и списков фильмов;
+- Интерфейс, разработанный с учетом современных стандартов дизайна и пользовательского опыта.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Технологии
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Фронтенд:** HTML, CSS(SASS), JavaScript (React), TypeScript;
+- **Бэкенд:** json-server, Axios
 
-### `npm test`
+В проекте используется публичное API https://www.tvmaze.com/api.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Установка и запуск
 
-### `npm run build`
+1. Склонируйте репозиторий: `git clone https://github.com/Glebee/MovieMania.git`
+2. Перейдите в папку проекта: `cd MovieMania`
+3. Установите зависимости: `npm install`
+4. Откройте две консоли, в одной запустите сервер: `npm start`, а в другой сам проект: `npm start`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Реализация
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://github.com/Glebee/MovieMania/assets/61833955/9c084e09-af98-4682-a6fd-c4629c1d1356)
+![image](https://github.com/Glebee/MovieMania/assets/61833955/69d378bd-9e7c-4d5c-bf05-88b83f0bf5a5)
+![image](https://github.com/Glebee/MovieMania/assets/61833955/2e34d552-8ca4-438f-8bf1-a777294a357f)
+![image](https://github.com/Glebee/MovieMania/assets/61833955/00fc4a68-c976-46f8-98d5-e68dfc760af6)
+![image](https://github.com/Glebee/MovieMania/assets/61833955/39500eb3-2cb9-4ec4-9310-7eb7badd5132)
+![image](https://github.com/Glebee/MovieMania/assets/61833955/b2bc2fb8-848e-43c1-b7fb-a4fc272e333b)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Планируемые улучшения
 
-### `npm run eject`
+1. Установить и настроить нормальную базу данных и развернуть сервер;
+2. Создание телеграмм-бота связанного с веб-приложением для уведомления пользователей о грядущих премьерах, на которые он подписан.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
