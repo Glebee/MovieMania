@@ -16,8 +16,8 @@
 
 ## Технологии
 
-- **Фронтенд:** HTML, CSS(SASS), JavaScript (React), TypeScript;
-- **Бэкенд:** json-server, Axios
+- **Фронтенд:** HTML, CSS(SASS), JavaScript (React), TypeScript, Axios;
+- **Бэкенд:** json-server.
 
 В проекте используется публичное API https://www.tvmaze.com/api.
 
