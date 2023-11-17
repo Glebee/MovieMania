@@ -34,3 +34,23 @@
 .modal__content.active{
     transform: scale(1)
 }
+
+@media (max-width:950px) {
+    .modal{
+        
+        .modal__content{
+            width: 80%;
+
+            .serialCard {
+                flex-direction: column;
+                overflow-y: scroll;
+                align-items: center;
+                img {
+                    height: 80%;
+                    width: auto;
+                }
+                
+            }
+        }
+    }
+}

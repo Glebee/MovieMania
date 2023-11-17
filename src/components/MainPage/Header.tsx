@@ -3,7 +3,7 @@ import Serial from '../../interfaces/Serial';
 import User from '../../interfaces/User';
 
 import '../../styles/MainPage/Header.scss'
-import logo from '../../imgs/logo.png'
+// import logo from "../../imgs/logo.png"; 
 import '../../styles/MainPage/MainButtons.scss'
 
 export const Header: React.FC<{
@@ -12,7 +12,7 @@ export const Header: React.FC<{
 }>
     = ({ user, setSerialsCopy, serials, setActiveLoginModal, setCurrentUser, setActiveMainButton, setActiveBookMarksButton }) => {
         return (user === null) ? (<div className='MainButtons'>
-            <img src={logo} width='120px' height='50px' alt='logo' />
+            <h1 className="logo">movieMania</h1> 
             <div className='buttons'>
             <button className='mainBtn' onClick={(e) => {
                     setActiveBookMarksButton(false);
@@ -31,7 +31,7 @@ export const Header: React.FC<{
                 </button>
             </div>
         </div>) : (<div className='MainButtons'>
-            <img src={logo} width='120px' height='50px' alt='logo'/>
+        <h1 className="logo">movieMania</h1> 
             <div className='buttons'>
                 <button className='mainBtn' onClick={(e) => {
                     //main button
